@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    background-color: #002339;
+    color: white;
+}
+.block{
+    display: block;
+    margin: 100px 100px;
+    width: 90%;
+    max-width: 700px;
+}
+.block h3{
+    font-size: 54px;
+}
+.block h3 span{
+    font-size: 65px;
+    color: #019f55;
+    border-bottom: #019f55 4px solid;
+}
+.input{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    width: 85%;
+    border-radius: 10px;
+}
+.input input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 30px;
+}
+.input svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.input svg path{
+    fill: #019f55;
+}
+button{
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+    padding:20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #019f55;
+}
+button svg path{
+    fill: white;
+}
+
+::selection{
+    background-color:#019f55;
+    color: #fff;
+}
